@@ -135,9 +135,33 @@ opacity: 0;
 }
 .modal-close-btn:hover{
     fill:currentColor;border:1px solid currentColor; 
-
 }
-
+.black{
+    color:black;
+}
+.service-input{
+    padding: 12px 40px;
+    border:1px solid #2E2F42;
+    border-radius: 4px;
+    transition: 250ms;
+    transition-property: color, border-color, background-color;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+}
+.service-label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; 
+    position: relative;
+}
+.input-label{
+    color:black;
+    text-align: left;
+    margin-bottom: 8px;;
+}
+.service-icon{
+    position:absolute;
+    top: 55px;%;
+}
 h3{
     font-size: 20px;
     line-height: 120%;
@@ -150,6 +174,8 @@ h2 {
     text-transform: capitalize;
     text-align: center;
 }
+
+
 ul.list {
     list-style: none;
     text-decoration: none;
